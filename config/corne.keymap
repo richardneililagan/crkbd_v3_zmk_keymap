@@ -30,14 +30,14 @@
                         compatible = "zmk,behavior-tap-dance";
                         label = "LCAPS_WORD_TD";
                         tapping-term-ms = <200>;
-                        bindings = <&kp LSHFT>, <&caps_word>
+                        bindings = <&kp LSHFT>, <&caps_word>;
                 };
 
                 rcword: tap_dance_1 {
                         compatible = "zmk,behavior-tap-dance";
                         label = "RCAPS_WORD_TD";
                         tapping-term-ms = <200>;
-                        bindings = <&kp RSHFT>, <&caps_word>
+                        bindings = <&kp RSHFT>, <&caps_word>;
                 };
         };
 
