@@ -30,6 +30,7 @@
                         compatible = "zmk,behavior-tap-dance";
                         label = "LCAPS_WORD_TD";
                         tapping-term-ms = <200>;
+                        #binding-cells = <0>;
                         bindings = <&kp LSHFT>, <&caps_word>;
                 };
 
@@ -37,6 +38,7 @@
                         compatible = "zmk,behavior-tap-dance";
                         label = "RCAPS_WORD_TD";
                         tapping-term-ms = <200>;
+                        #binding-cells = <0>;
                         bindings = <&kp RSHFT>, <&caps_word>;
                 };
         };
